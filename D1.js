@@ -11,7 +11,14 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
-/* 
+/* I principali datatype sono: Stringa, Numero e Booleano.
+Stringa. Lo utilizziamo nelle nostre variabili (che sono come dei contenitori) per far "capire" al nostro codice che in quel contenitore è contenuto
+          qualcosa che non deve usare per fare operazioni aritmetiche, ma che deve solo leggere o associare... Quindi un contenuto di testo. Glielo
+          facciamo capire mettendo il valore dentro degli apici, es var contenuto = "testo"
+Numerico. Quando vogliamo far capire al nostro codice che quel contenitore contiene qualcosa che deve utilizzare per fare dei calcoli,
+          quindi dei numeri, mettiamo il contenuto direttamente nel nostro conenitore senza usare apici: const contenitore = 1 
+Booleani. Quando vogliamo fare capire al nostro codice che in quel contenitore può trovare solo qualcosa che sia vero o qualcosa che sia falso. Inseriamo
+          un valore diretto senza apici, che può essere solo true o false.
 
 
 */
@@ -26,10 +33,10 @@ let myName = "Gianni"
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-const numero1 = 12
-const numero2 = 20
+/*const numero1 = 12
+const numero2 = 20*/
 
-console.log(numero1 + numero2)
+console.log(12 + 20)
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
