@@ -19,8 +19,6 @@ Numerico. Quando vogliamo far capire al nostro codice che quel contenitore conti
           quindi dei numeri, mettiamo il contenuto direttamente nel nostro conenitore senza usare apici: const contenitore = 1 
 Booleani. Quando vogliamo fare capire al nostro codice che in quel contenitore può trovare solo qualcosa che sia vero o qualcosa che sia falso. Inseriamo
           un valore diretto senza apici, che può essere solo true o false.
-
-
 */
 
 /* ESERCIZIO 2
@@ -52,9 +50,7 @@ console.log(x)
 */
 
 
-myName = "Bascetta"
-
-console.log(myName)
+console.log()
 
 
 /* ESERCIZIO 6
