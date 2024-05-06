@@ -14,7 +14,7 @@ REGOLE
 /* I principali datatype sono: Stringa, Numero e Booleano.
 Stringa. Lo utilizziamo nelle nostre variabili (che sono come dei contenitori) per far "capire" al nostro codice che in quel contenitore è contenuto
           qualcosa che non deve usare per fare operazioni aritmetiche, ma che deve solo leggere o associare... Quindi un contenuto di testo. Glielo
-          facciamo capire mettendo il valore dentro degli apici, es var contenuto = "testo"
+          facciamo capire mettendo il valore dentro degli apici, es const contenuto = "testo"
 Numerico. Quando vogliamo far capire al nostro codice che quel contenitore contiene qualcosa che deve utilizzare per fare dei calcoli,
           quindi dei numeri, mettiamo il contenuto direttamente nel nostro conenitore senza usare apici: const contenitore = 1 
 Booleani. Quando vogliamo fare capire al nostro codice che in quel contenitore può trovare solo qualcosa che sia vero o qualcosa che sia falso. Inseriamo
@@ -25,39 +25,42 @@ Booleani. Quando vogliamo fare capire al nostro codice che in quel contenitore p
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-let myName = "Gianni"
+const myName = "Gianni";
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-/*const numero1 = 12
-const numero2 = 20*/
+/*SOLUZIONE ALTERNATIVA
+  const numero1 = 12
+  const numero2 = 20
+*/
 
-console.log(12 + 20)
+console.log(12 + 20);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
-const x = 12
+const x = 12;
 
-console.log(x)
+console.log(x);
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
+// myName = "Bascetta"
+// disattivare il commento superiore per verificare
 
-console.log()
-
+console.log(myName);
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-console.log(4 - x)
+console.log(4 - x);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -65,14 +68,11 @@ console.log(4 - x)
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-let name1 = "john"
-let name2 = "John"
+const name1 = "john";
+const name2 = "John";
 
-console.log(name1 !== name2)
+console.log(name1 !== name2);
 
 // Extra
 
-name2 = name1
-
-console.log(name1 === name2)
-
+console.log(name1 === name2.toLowerCase());
